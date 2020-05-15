@@ -32,7 +32,9 @@ for name_1 in names_1:
     if name2_bst.contains(name_1):
         duplicates.append(name_1)
 
-
+# for name_1 in names_1:
+#     if name_1 in names_2: 
+#         duplicates.append(name_1)
 
 
 
