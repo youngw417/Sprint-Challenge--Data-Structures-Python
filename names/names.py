@@ -32,20 +32,10 @@ for name_1 in names_1:
     if name2_bst.contains(name_1):
         duplicates.append(name_1)
 
+# for strectch goal
 # for name_1 in names_1:
 #     if name_1 in names_2: 
 #         duplicates.append(name_1)
-
-
-
-# if name1_bst.contains('Zoie Lara'):
-#     print('yes')
-# else:
-#     print('no')
-
-
-    # and name2_bst.contains(name_1):
-    #     duplicates.append(name_1)
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
